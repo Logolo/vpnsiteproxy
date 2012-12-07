@@ -1,0 +1,16 @@
+.settings
+.project
+.classpath
+.pydevproject
+target
+*.pyc
+*.log
+mrf
+pid
+worker/temp
+/build/bin/
+.metadata/
+/log
+node_modules/
+*.sublime-project
+*.sublime-workspace

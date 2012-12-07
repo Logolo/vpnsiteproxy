@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    div.descriptionContainer
+        h1 Free VPN 网站访问代理
+        p 通过本代理你可以访问下面提供免费VPN服务的网站，获取最新的免费VPN的帐号，密码。 
+    div.vpnSiteContainer
+        a#usaFreeVPNLink(href="javascript:;") USA Free VPN
+        | &nbsp;&nbsp;&nbsp;&nbsp;
+        a#usaNewFreeVPNLink(href="javascript:;") USA New Free VPN
+        | &nbsp;&nbsp;&nbsp;&nbsp;
+        | others: 
+        input#otherVPNURL(type="text", placeholder="在这里输入其他网站的地址")
+        | &nbsp;&nbsp;
+        input#openOtherVPN(type="button", value="GO")
+
+    div.iframeContainer
+        iframe#pageContainer
+
